@@ -87,6 +87,10 @@ Decision Tree Models:
 - Decision Tree Second Model: Shows slight improvement over the baseline decision tree, but still lags behind the logistic models in predictive power.
 
 **c)Classification Report**
+
+![image](https://github.com/user-attachments/assets/ff6718a5-882c-4b57-ab55-b4526e686ef8)     ![image](https://github.com/user-attachments/assets/638e09f5-d28d-4cf8-b3a8-b1497e236e47)
+
+
 According to this metric, this is how the models perform,
 
 - Logistic Baseline Model performs well for non-churn customers(high recall and precision for class 0)but has difficulty identifying churn.This suggests a high number of false negatives (failing to predict churn).
