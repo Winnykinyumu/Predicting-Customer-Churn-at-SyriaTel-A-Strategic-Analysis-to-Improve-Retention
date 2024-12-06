@@ -8,8 +8,8 @@ This project predicts customer churn at SyriaTel, a telecommunications company, 
 4. [Success metrics](#Success-Metrics)
 5. [Data Understanding and Preparation](#Data-Understanding-and-Preparation)
 6. [Data Visualization and Analysis](#Data-Visualization-and-Analysis)
-7. [Recommendations](#Recommendations)
-8. [Conclusion](#Conclusion)
+7. [Conclusion](#Conclusion)
+8. [Recommendations](#Recommendations)
 9. [Next Steps](#Next-Steps)
 10. [Reference](#References)
 
