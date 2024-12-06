@@ -58,6 +58,7 @@ The cleaning of this dataset entailed dealing with outliers, dealing with duplic
 ![Churns by customer service](https://github.com/user-attachments/assets/b36800b4-464d-4618-848f-8e8a956c40ca)
 
 **5. To predict churn by focusing on the most influential features that drive customer behavior and retention patterns.**
+
 **a)Confusion Matrix**
 
 ![Confusion matrix](https://github.com/user-attachments/assets/f20cef90-c55c-47a8-acf6-881a509ab7fb)
@@ -88,7 +89,7 @@ Decision Tree Models:
 
 **c)Classification Report**
 
-![image](https://github.com/user-attachments/assets/ff6718a5-882c-4b57-ab55-b4526e686ef8)     ![image](https://github.com/user-attachments/assets/638e09f5-d28d-4cf8-b3a8-b1497e236e47)
+![image](https://github.com/user-attachments/assets/ff6718a5-882c-4b57-ab55-b4526e686ef8) ![image](https://github.com/user-attachments/assets/638e09f5-d28d-4cf8-b3a8-b1497e236e47)
 
 
 According to this metric, this is how the models perform,
@@ -100,6 +101,8 @@ According to this metric, this is how the models perform,
 - Decision Tree Models (both baseline and second) perform well for non-churn customers, but their performance in detecting churn is still not optimal, with relatively low recall for churn.
 
 **d).Cross Validation Score**
+
+![image](https://github.com/user-attachments/assets/42e7de7d-3832-46fa-bb0d-9863dce94d19)
 
 According to this metric, the Second Logistic Model has the highest validation score based on recall, as the primary focus is to identify as many churners as possible. This model outperforms the others by identifying a significantly higher proportion of churners.
 
