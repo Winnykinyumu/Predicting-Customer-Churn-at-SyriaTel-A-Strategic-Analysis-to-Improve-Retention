@@ -36,6 +36,9 @@ The cleaning of this dataset entailed dealing with outliers, dealing with duplic
 
    
 **2. To examine the impact of Account Length on Churn. Which customesrs are highly prone to attrition.**
+
+![Churns by account length](https://github.com/user-attachments/assets/0d8527ec-e438-47bc-ba75-ff11b7b9274d)
+
 **3. To assess the influence of subscription plans (voicemail and international plans) on churn.**
 **4. To evaluate the impact of customer service calls on churn and determine if there is a statistically significant relationship.**
 **5. To predict churn by focusing on the most influential features that drive customer behavior and retention patterns.**
