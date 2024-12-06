@@ -105,6 +105,30 @@ According to this metric, this is how the models perform,
 
 - Decision Tree Second Model: Shows slight improvement over the baseline decision tree, but still lags behind the logistic models in predictive power.
 
+## Recommendations
+- SyriaTel should conduct further research to identify the factors driving the high churn rate in the 408 region, which differs from others, and develop targeted strategies for improving customer retention.
+
+- SyriaTel should focus on retaining long-term customers by addressing potential dissatisfaction and innovating offerings, while improving short-term customer satisfaction through better onboarding and support. Mid-term customers should be engaged with loyalty programs to maintain their retention.
+
+- SyriaTel should focus on retaining International Plan customers, especially those without a Voicemail Plan, by offering cost-effective strategies like enhancing plan benefits, bundling services, and improving customer support.
+
+- Since customer service calls are not significantly related to churn rate, S SyriaTel should shift focus to improving other key aspects of the customer experience, such as product quality, pricing, and service offerings, to enhance customer retention and reduce churn.
+
+- Based on the findings, SyriaTel should prioritize further tuning and optimization of the second logistic regression model, as its superior recall score makes it more effective at identifying churners, thereby enhancing customer retention strategies and reducing churn.
+
+
+## Next Steps
+- Deploy the logistic regression model into SyriaTel's customer retention system. Integrate the model's predictions into real-time operations, such as CRM systems, to trigger automated retention actions like personalized offers or loyalty programs for at-risk customers.The model should also be continuously updated with new customer data to maintain its predictive power and accuracy over time.
+
+- There is a need for a deep dive into the 408 region to gather customer feedback or detailed insights into regional challenges. Further qualitative analysis may be needed to understand if factors like service quality, local competition, or pricing are impacting retention.
+
+- Implement a feedback loop to gather insights from customers who churn and those who stay, continuously improving the customer experience and identifying pain points that were not previously addressed. Additionally, a structured process is needed for collecting and acting on customer feedback.
+
+## References
+
+[SurveySENSUM].The Ultimate Guide to B2B SaaS Customer Retention: From Churn to Champion. (2023, August 24). https://www.surveysensum.com/customer-experience/saas-customer-retention#:~:text=The%20same%20study%20shows%20that,and%20addressing%20clients'%20evolving%20needs.
+
+
 
 
 
