@@ -59,7 +59,13 @@ The cleaning of this dataset entailed dealing with outliers, dealing with duplic
 
 **5. To predict churn by focusing on the most influential features that drive customer behavior and retention patterns.**
 
-**a)Confusion Matrix**
+**a).Cross Validation Score**
+
+![image](https://github.com/user-attachments/assets/42e7de7d-3832-46fa-bb0d-9863dce94d19)
+
+According to this metric, the Second Logistic Model has the highest validation score based on recall, as the primary focus is to identify as many churners as possible. This model outperforms the others by identifying a significantly higher proportion of churners.
+
+**b).Confusion Matrix**
 
 ![Confusion matrix](https://github.com/user-attachments/assets/f20cef90-c55c-47a8-acf6-881a509ab7fb)
 
@@ -72,6 +78,18 @@ Logistic Regression Models:
 Decision Tree Models:
 
 -Both decision tree models (baseline and second model) perform similarly, with a relatively higher True Positive (60) rate and fewer False Positives compared to logistic regression. The decision tree models seem to strike a better balance between identifying churn customers correctly and avoiding false positives.
+
+**c).Classification Report**
+
+![image](https://github.com/user-attachments/assets/ff6718a5-882c-4b57-ab55-b4526e686ef8) ![image](https://github.com/user-attachments/assets/638e09f5-d28d-4cf8-b3a8-b1497e236e47)
+
+According to this metric, this is how the models perform,
+
+- Logistic Baseline Model performs well for non-churn customers(high recall and precision for class 0)but has difficulty identifying churn.This suggests a high number of false negatives (failing to predict churn).
+
+- Logistic Second Model improves churn prediction compared to the baseline model but at the cost of misclassifying more non-churn customers as churn (lower recall for class 0).
+
+- Decision Tree Models (both baseline and second) perform well for non-churn customers, but their performance in detecting churn is still not optimal, with relatively low recall for churn.
 
 **b).ROC Curve**
 
@@ -87,24 +105,12 @@ Decision Tree Models:
 
 - Decision Tree Second Model: Shows slight improvement over the baseline decision tree, but still lags behind the logistic models in predictive power.
 
-**c)Classification Report**
-
-![image](https://github.com/user-attachments/assets/ff6718a5-882c-4b57-ab55-b4526e686ef8) ![image](https://github.com/user-attachments/assets/638e09f5-d28d-4cf8-b3a8-b1497e236e47)
 
 
-According to this metric, this is how the models perform,
 
-- Logistic Baseline Model performs well for non-churn customers(high recall and precision for class 0)but has difficulty identifying churn.This suggests a high number of false negatives (failing to predict churn).
 
-- Logistic Second Model improves churn prediction compared to the baseline model but at the cost of misclassifying more non-churn customers as churn (lower recall for class 0).
 
-- Decision Tree Models (both baseline and second) perform well for non-churn customers, but their performance in detecting churn is still not optimal, with relatively low recall for churn.
 
-**d).Cross Validation Score**
-
-![image](https://github.com/user-attachments/assets/42e7de7d-3832-46fa-bb0d-9863dce94d19)
-
-According to this metric, the Second Logistic Model has the highest validation score based on recall, as the primary focus is to identify as many churners as possible. This model outperforms the others by identifying a significantly higher proportion of churners.
 
 
 
