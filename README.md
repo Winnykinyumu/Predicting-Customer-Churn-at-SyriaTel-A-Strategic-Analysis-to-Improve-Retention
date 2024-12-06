@@ -81,7 +81,7 @@ Decision Tree Models:
 
 **c).Classification Report**
 
-![image](https://github.com/user-attachments/assets/ff6718a5-882c-4b57-ab55-b4526e686ef8) ![image](https://github.com/user-attachments/assets/638e09f5-d28d-4cf8-b3a8-b1497e236e47)
+![image](https://github.com/user-attachments/assets/ff6718a5-882c-4b57-ab55-b4526e686ef8)![image](https://github.com/user-attachments/assets/638e09f5-d28d-4cf8-b3a8-b1497e236e47)
 
 According to this metric, this is how the models perform,
 
