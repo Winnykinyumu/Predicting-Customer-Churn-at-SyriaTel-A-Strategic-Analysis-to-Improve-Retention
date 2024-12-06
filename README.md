@@ -30,6 +30,10 @@ The cleaning of this dataset entailed dealing with outliers, dealing with duplic
 ## Data Visualization/Analysis
 
 **1. To Identify Churn Rates by Region and which region is highly affected.**
+
+![Churns by Region](https://github.com/user-attachments/assets/8eb75eea-5dae-4896-9df4-a877640753e8)
+
+
    
 **2. To examine the impact of Account Length on Churn. Which customesrs are highly prone to attrition.**
 **3. To assess the influence of subscription plans (voicemail and international plans) on churn.**
