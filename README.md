@@ -33,15 +33,25 @@ The cleaning of this dataset entailed dealing with outliers, dealing with duplic
 
 ![Churns by Region](https://github.com/user-attachments/assets/8eb75eea-5dae-4896-9df4-a877640753e8)
 
+**Interpretation**
 
-   
+- Area Code 408, presents to have the highest Churn Rate followed by 510 then 415.
+  
 **2. To examine the impact of Account Length on Churn. Which customesrs are highly prone to attrition.**
 
 ![Churns by account length](https://github.com/user-attachments/assets/0d8527ec-e438-47bc-ba75-ff11b7b9274d)
 
+**Interpretation**
+
+- The analysis shows that long-term customers (over 14 years) have the highest churn rate, followed by short-term customers (7 years or less) with the second-highest churn rate, while mid-term customers (7-14 years) exhibit the lowest churn rate.
+
 **3. To assess the influence of subscription plans (voicemail and international plans) on churn.**
 
 ![Churns by subscription plans](https://github.com/user-attachments/assets/90fc3ced-27a3-4e25-844f-30ccf1bd0547)
+
+**Interpretation**
+
+- Customers with an International Plan but no Voicemail Plan have the highest churn rate, followed by those with both plans, while customers without either plan have the third-highest churn rate, and those with only a Voicemail Plan have the lowest churn rate.
 
 **4. To evaluate the impact of customer service calls on churn and determine if there is a statistically significant relationship.**
 
@@ -52,12 +62,42 @@ The cleaning of this dataset entailed dealing with outliers, dealing with duplic
 
 ![Confusion matrix](https://github.com/user-attachments/assets/f20cef90-c55c-47a8-acf6-881a509ab7fb)
 
+**Interpretation**
+
+Logistic Regression Models:
+
+-The second logistic model has a higher number of True Positives (78) but also a higher False Positive rate (150). This indicates that it may incorrectly classify a higher number of non-churn customers as churn, which could be problematic, depending on the cost of false positives. The first logistic model has fewer false positives and false negatives, but its True Positives (39) are lower, which suggests it may be under-predicting churn.
+
+Decision Tree Models:
+
+-Both decision tree models (baseline and second model) perform similarly, with a relatively higher True Positive (60) rate and fewer False Positives compared to logistic regression. The decision tree models seem to strike a better balance between identifying churn customers correctly and avoiding false positives.
 
 **b).ROC Curve**
 
 ![ROC Curve](https://github.com/user-attachments/assets/5bdd7be6-e2ee-4a97-8425-9e1e21853871)
 
+**Interpretation**
 
+- Logistic Baseline Model: Performs well but is outperformed by the logistic second model, showing room for improvement in feature selection or tuning.
+
+- Logistic Second Model: The best-performing model, achieving the highest TPR and lowest FPR, indicating effective optimization for churn prediction.
+
+- Decision Tree Baseline Model: Provides moderate performance, but its ROC curve suggests it struggles with generalization compared to the logistic models.
+
+- Decision Tree Second Model: Shows slight improvement over the baseline decision tree, but still lags behind the logistic models in predictive power.
+
+**c)Classification Report**
+According to this metric, this is how the models perform,
+
+- Logistic Baseline Model performs well for non-churn customers(high recall and precision for class 0)but has difficulty identifying churn.This suggests a high number of false negatives (failing to predict churn).
+
+- Logistic Second Model improves churn prediction compared to the baseline model but at the cost of misclassifying more non-churn customers as churn (lower recall for class 0).
+
+- Decision Tree Models (both baseline and second) perform well for non-churn customers, but their performance in detecting churn is still not optimal, with relatively low recall for churn.
+
+**d).Cross Validation Score**
+
+According to this metric, the Second Logistic Model has the highest validation score based on recall, as the primary focus is to identify as many churners as possible. This model outperforms the others by identifying a significantly higher proportion of churners.
 
 
 
