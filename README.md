@@ -5,15 +5,13 @@ This project predicts customer churn at SyriaTel, a telecommunications company, 
 1. [Business Understanding](#Business-Understanding)
 2. [Problem Statement](#Problem-Statement)
 3. [Objectives](#Objectives)
-4. [Data Understanding](#Data-Understanding)
-5. [Data Preparation and Cleaning](#Data-Preparation-and-Cleaning)
-6. [Exploratory Data Analysis](#Exploratory-Data-Analysis)
-7. [Modeling](#Modeling)
+4. [Success metrics](#Success-Metrics)
+5. [Data Understanding and Preparation](#Data-Understanding-and-Preparation)
+6. [Data Visualization and Analysis](#Data-Visualization-and-Analysis)
+7. [Recommendations](#Recommendations)
 8. [Conclusion](#Conclusion)
-9. [Recommendations](#Recommendations)
-10. [Next Steps](#Next-Steps)
-11. [Reference](#References)
-
+9. [Next Steps](#Next-Steps)
+10. [Reference](#References)
 
 ## Business Understanding 
 Churn, also known as customer attrition, refers to the percentage of customers who discontinue or stop using a company’s services during a given period. For telecommunications companies like SyriaTel, churn is a critical metric because it directly impacts revenue growth and profitability. When a customer leaves, the company not only loses the revenue from that customer but also incurs higher costs in trying to acquire new customers to replace them.
@@ -41,7 +39,7 @@ This dataset was obtained from [kaggle](https://www.kaggle.com/datasets/becksddf
 
 The cleaning of this dataset entailed dealing with outliers, dealing with duplicates, checking for missing values which the dataset didn't have, harmonizing the various datatypes and also operating both dummy encoding and label encoding in preparation of the data for modeling.
 
-## Data Visualization/Analysis
+## Data Visualization and Analysis
 
 **1. To Identify Churn Rates by Region and which region is highly affected.**
 
