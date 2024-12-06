@@ -1,6 +1,20 @@
 # Predicting-Customer-Churn-at-SyriaTel-A-Strategic-Analysis-to-Improve-Retention
 This project predicts customer churn at SyriaTel, a telecommunications company, using data science and machine learning. It analyzes historical data to identify churn patterns, helping SyriaTel improve retention, reduce revenue loss, and make informed decisions through a binary classification model.
 
+## Table of Contents 
+1. [Business Understanding](#Business-Understanding)
+2. [Problem Statement](#Problem-Statement)
+3. [Objectives](#Objectives)
+4. [Data Understanding](#Data-Understanding)
+5. [Data Preparation and Cleaning](#Data-Preparation-and-Cleaning)
+6. [Exploratory Data Analysis](#Exploratory-Data-Analysis)
+7. [Modeling](#Modeling)
+8. [Conclusion](#Conclusion)
+9. [Recommendations](#Recommendations)
+10. [Next Steps](#Next-Steps)
+11. [Reference](#References)
+
+
 ## Business Understanding 
 Churn, also known as customer attrition, refers to the percentage of customers who discontinue or stop using a company’s services during a given period. For telecommunications companies like SyriaTel, churn is a critical metric because it directly impacts revenue growth and profitability. When a customer leaves, the company not only loses the revenue from that customer but also incurs higher costs in trying to acquire new customers to replace them.
 
