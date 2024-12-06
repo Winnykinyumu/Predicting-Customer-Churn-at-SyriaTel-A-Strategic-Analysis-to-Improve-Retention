@@ -40,8 +40,24 @@ The cleaning of this dataset entailed dealing with outliers, dealing with duplic
 ![Churns by account length](https://github.com/user-attachments/assets/0d8527ec-e438-47bc-ba75-ff11b7b9274d)
 
 **3. To assess the influence of subscription plans (voicemail and international plans) on churn.**
+
+![Churns by subscription plans](https://github.com/user-attachments/assets/90fc3ced-27a3-4e25-844f-30ccf1bd0547)
+
 **4. To evaluate the impact of customer service calls on churn and determine if there is a statistically significant relationship.**
+
+![Churns by customer service](https://github.com/user-attachments/assets/b36800b4-464d-4618-848f-8e8a956c40ca)
+
 **5. To predict churn by focusing on the most influential features that drive customer behavior and retention patterns.**
+**a)Confusion Matrix**
+
+![Confusion matrix](https://github.com/user-attachments/assets/f20cef90-c55c-47a8-acf6-881a509ab7fb)
+
+
+**b).ROC Curve**
+
+![ROC Curve](https://github.com/user-attachments/assets/5bdd7be6-e2ee-4a97-8425-9e1e21853871)
+
+
 
 
 
