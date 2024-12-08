@@ -69,6 +69,11 @@ The cleaning of this dataset entailed dealing with outliers, dealing with duplic
 
 ![Churns by customer service](https://github.com/user-attachments/assets/b36800b4-464d-4618-848f-8e8a956c40ca)
 
+**Interpretation**
+- Both customers who churn (True) and those who don't churn (False) seem to have a relatively high number of customer service calls, with values around 0.7.
+
+- In terms of hypothesis, the P-values for both T-test and Mann-Whitney tests presented to be >than 0.05. So, we failed to reject the null hypothesis with a conclusion that there is no statistically significant relationship between customer service calls and churn rate. In other words, the frequency of customer service calls does not have a significant impact on whether a customer churns or not. This implied that customer service is not a major factor influencing customer churn.
+
 **5. To predict churn by focusing on the most influential features that drive customer behavior and retention patterns.**
 
 **a).Cross Validation Score**
