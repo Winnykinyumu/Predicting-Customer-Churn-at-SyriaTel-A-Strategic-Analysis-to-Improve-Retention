@@ -35,9 +35,9 @@ The success metric for this project would be to achieve a recall rate of at leas
 
 ## Data Understanding and Preparation
 
-This dataset was obtained from [kaggle](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset?resource=download) and contains customers' dafta from SyriaTel, a telecommunications company. It includes various features related to customer behavior, usage patterns, and service details, which are crucial for analyzing customer churn and understanding the factors that influence retention. The dataset entails 21 columns and 3333 rows. 
+This dataset was obtained from [kaggle](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset?resource=download) and contains customers' data from SyriaTel, a telecommunications company. It includes various features related to customer behavior, usage patterns, and service details, which are crucial for analyzing customer churn and understanding the factors that influence retention. The dataset entails 21 columns and 3333 rows. 
 
-The cleaning of this dataset entailed dealing with outliers, dealing with duplicates, checking for missing values which the dataset didn't have, harmonizing the various datatypes and also operating both dummy encoding and label encoding in preparation of the data for modeling.
+The cleaning of this dataset entailed dealing with outliers, dealing with duplicates, checking for missing values which the dataset didn't have, harmonizing the various data types and also operating both dummy encoding and label encoding in preparation of the data for modeling.
 
 ## Data Visualization and Analysis
 
