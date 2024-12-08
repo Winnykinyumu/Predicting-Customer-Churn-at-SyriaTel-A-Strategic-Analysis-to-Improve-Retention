@@ -140,6 +140,15 @@ According to this metric, this is how the models perform,
 
 - Decision Tree Second Model: Shows slight improvement over the baseline decision tree, but still lags behind the logistic models in predictive power.
 
+**Final Model**
+
+The second logistic regression model emerged as the best-performing model across multiple evaluation metrics. It achieved the highest validation score, indicating robust overall performance. On the ROC curve, it demonstrated effective optimization for churn prediction, with the highest True Positive Rate (TPR) and lowest False Positive Rate (FPR). The confusion matrix highlighted its strength in correctly predicting churn with the highest number of true positives, although it also showed a tendency to overpredict with increased false positives. Additionally, the classification report emphasized its superior recall, reflecting the model's strong ability to identify churn cases accurately.
+
+Based on the analysis of the models, the second logistic regression model is the best choice for predicting customer churn at Syria Tel. While it has a slightly higher False Positive rate, its superior recall score indicates that it is more effective at identifying churners, which is the primary goal for this business problem. By capturing more churners (True Positives), the model offers a better chance to retain high-risk customers, which is more cost-effective than failing to identify churners and losing them to competitors.
+
+Although the higher False Positive rate poses a risk of misclassifying non-churn customers as churners, the financial cost of reaching out to false positives is generally lower than the cost of not addressing actual churners. This trade-off makes this model more suitable for improving customer retention, which is crucial for SyriaTel’s profitability and long-term growth. This final model achieves the stated objective by optimizing the most critical features influencing churn prediction​,such as account details, usage metrics, customer service interactions, and geographic information. Given its potential, it should be prioritized for further tuning to optimize its accuracy and enhance customer retention strategies.
+
+
 ## Conclusion
 - The highly affected region for churn is 408, which has the leading churn rate
 
