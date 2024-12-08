@@ -25,7 +25,7 @@ SyriaTel, a telecommunications company, is facing a high customer churn rate, ne
 
 ## Objectives
 1. To Identify Churn Rates by Region and which region is highly affected.
-2. To examine the impact of Account Length on Churn. Which customesrs are highly prone to attrition.
+2. To examine the impact of Account Length on Churn. Which customers are highly prone to attrition.
 3. To assess the influence of subscription plans (voicemail and international plans) on churn.
 4. To evaluate the impact of customer service calls on churn and determine if there is a statistically significant relationship.
 5. To predict churn by focusing on the most influential features that drive customer behavior and retention patterns.
