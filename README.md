@@ -76,6 +76,19 @@ The cleaning of this dataset entailed dealing with outliers, dealing with duplic
 
 **5. To predict churn by focusing on the most influential features that drive customer behavior and retention patterns.**
 
+Achieving this objective involved training four distinct models: basic logistic regression and decision tree models, along with enhanced versions of both. The second models incorporated feature selection, addressed class imbalance using class weights, applied regularization (for logistic regression), and employed hyperparameter tuning (adjusting max depth, min samples, and entropy) for the decision tree models.
+
+Logistic regression and decision tree models were chosen as they are well-suited for analyzing the categorical nature of the target variable (churn).
+
+These models were analysed further using four different metrics entailing, cross validation score, confusion matrix, ROC Curve and classification Report. 
+
+- Based on validation score, the second logistic model presentred to have the highest score.
+- Based on ROC-Curve, the Logistic Second Model,emerged as the best-performing model, achieving the highest TPR and lowest FPR, indicating effective optimization for churn prediction.
+- Based on confusion matrix, the second logistic model recorded the highest number of true positives, outperforming others in correctly predicting churns. However, it also recorded more false positives, indicating a tendency to overpredict churn.
+- Based on Classification report the emphasis was on recall, which tells how well is our model's ability in predicting churn. In this case as well, The second logistic model presented to have the highest recall compared to the rest.
+
+Each of these metrics are further emphasized below.
+
 **a).Cross Validation Score**
 
 ![image](https://github.com/user-attachments/assets/42e7de7d-3832-46fa-bb0d-9863dce94d19)
@@ -97,8 +110,13 @@ Decision Tree Models:
 -Both decision tree models (baseline and second model) perform similarly, with a relatively higher True Positive (60) rate and fewer False Positives compared to logistic regression. The decision tree models seem to strike a better balance between identifying churn customers correctly and avoiding false positives.
 
 **c).Classification Report**
+- For Logistic Regression:
+  
+![image](https://github.com/user-attachments/assets/ff6718a5-882c-4b57-ab55-b4526e686ef8)!
 
-![image](https://github.com/user-attachments/assets/ff6718a5-882c-4b57-ab55-b4526e686ef8)![image](https://github.com/user-attachments/assets/638e09f5-d28d-4cf8-b3a8-b1497e236e47)
+- For Decision Tree:
+  
+[image](https://github.com/user-attachments/assets/638e09f5-d28d-4cf8-b3a8-b1497e236e47)
 
 According to this metric, this is how the models perform,
 
