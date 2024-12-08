@@ -49,7 +49,7 @@ The cleaning of this dataset entailed dealing with outliers, dealing with duplic
 
 - Area Code 408, presents to have the highest Churn Rate followed by 510 then 415.
   
-**2. To examine the impact of Account Length on Churn. Which customesrs are highly prone to attrition.**
+**2. To examine the impact of Account Length on Churn. Which customers are highly prone to attrition.**
 
 ![Churns by account length](https://github.com/user-attachments/assets/0d8527ec-e438-47bc-ba75-ff11b7b9274d)
 
